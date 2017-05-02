@@ -7,10 +7,10 @@
 
 <body>
 	<?php
-		$host = "localhost"; // se não for local vc vai colocar as infomações da sua hospedagem, do seu servidor
-		$user = "root";
-		$pass = "";
-		$banco = "cadastro";
+		$host = "146.148.94.117"; // senão for local vc vai colocar as infomações da sua hospedagem, do seu servidor
+		$user = "teste";
+		$pass = "1234";
+		$database = "BancoTCC";
 		$conexao = @mysql_connect($host, $user, $pass) or die(mysql_error()); // @mysql_connect PRECISA DO @    // não esquecer do @ na frente do mysql_connect, na última atualização foi acrescentado esse @, então é @mysql_connect    // or die(mysql_error()); ===>> para nos reportar qual é o erro se caso der algum erro
 		mysql_select_db($banco) or die(mysql_error()); // or die(mysql_error()); ===>> para nos reportar qual é o erro se caso der algum erro
 		
