@@ -8,8 +8,11 @@
 	<title>Resutados de Pesquisa</title>
 </head>
 
-<body>
+<body>Lista de técnicos
 <?php
+	echo "<br />";
+	echo "Lista de técnicos";
+	echo "<br />";
 	$buscar=$_POST['buscar'];
 	$sql = mysql_query("SELECT *
 		FROM usuariostb
