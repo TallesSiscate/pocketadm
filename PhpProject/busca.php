@@ -10,7 +10,7 @@
 		Buscar técnicos por nome: <input type="text" name="buscar" />
 		<input type="submit" value="Ir" />
 	</form>
-	<form name="searchform" method="post" action="results-todos.php"><!-- action para o resultado em uma nova página -->
+	<form name="searchform2" method="post" action="results-todos.php"><!-- action para o resultado em uma nova página -->
 		Buscar técnicos por nome: 
 		<input type="submit" value="Ir" />
 	</form>

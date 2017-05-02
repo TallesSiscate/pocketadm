@@ -17,7 +17,7 @@
 	<?php
 		echo "<br /><br />";
 	?>
-	<form name="searchform" method="post" action="busca.php"><!-- action para o resultado em uma nova página -->
+	<form name="searchform2" method="post" action="busca.php"><!-- action para o resultado em uma nova página -->
 		Página de busca: 
 		<input type="submit" value="Ir" />
 	</form>

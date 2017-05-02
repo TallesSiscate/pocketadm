@@ -1,0 +1,16 @@
+{
+  "project_name": "Pocket - PHP",
+  "project_description": "Starter code for a Google App Engine app in PHP.",
+  "show_files": [
+    "app.yaml",
+	"index.php",
+	"cadastro.php",
+	"busca.php",
+	"cadastrando.php",
+	"results.php",
+	"results-todos.php",
+	"connection.php"	
+  ],
+  "read_only_demo_url": "https://try-php-demo-dot-cloud-playground.appspot.com/",
+  "download_filename": "appengine-try-php.zip"
+}
