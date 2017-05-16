@@ -7,12 +7,18 @@ handlers:
 - url: /busca
   script: busca.php
 - url: /results
-  script: results.php
-- url: /results-todos
-  script: results-todos.php
+  script: tecnicos.php
+- url: /tecnico
+  script: tecnico.php
+- url: /alterando
+  script: alterando.php
+- url: /connection
+  script: connection.php
 - url: /cadastro
   script: cadastro.php
 - url: /cadastrando
   script: cadastrando.php
+- url: /results_usuario
+  script: results_usuario.php
 - url: /.*
   script: index.php

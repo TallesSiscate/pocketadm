@@ -1,6 +1,3 @@
-﻿<?php
-	include "connection.php";
-?>
 <html>
 
 <head>
@@ -9,8 +6,8 @@
 </head>
 
 <body>
-	<?php
-		echo 'Bem-Vindo Administrador';
+<?php
+    echo 'Bem-Vindo Administrador';
 		echo "<br /><br />";
 	?>
 	<form name="searchform" method="post" action="cadastro.php"><!-- action para o resultado em uma nova página -->

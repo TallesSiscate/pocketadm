@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Cadastrando...</title><!-- Título vc coloca se vc quiser -->
+	<title>Alterando...</title><!-- Título vc coloca se vc quiser -->
 </head>
 
 <body>
@@ -17,21 +17,12 @@
 		/*** Acima temos a conexão do banco ***/
 	?>
 	<?php
-		$nome=$_POST['nome'];
-		// $sobrenome=$_POST['sobrenome'];
-		// $pais=$_POST['pais'];
-		// $estado=$_POST['estado'];
-		// $cidade=$_POST['cidade'];
-		// $email=$_POST['email'];
-		$senha=$_POST['senha'];
-		
-		// $sql = mysql_query("INSERT INTO usuarios(nome, sobrenome, pais, estado, cidade, email, senha) VALUES('$nome', '$sobrenome', '$pais', '$estado', '$cidade', '$email', '$senha')");
-		
-		$sql = mysql_query("INSERT INTO usuarios(nome, senha)		VALUES('$nome', '$senha')");
-		
-		echo "<center><h1>Cadastro efetuado com sucesso!</h1></center>"; // Vc coloca se vc quiser   // pode colocar um link para voltar se vc quiser
-		
-		/*** Acima temos a inserção de dados no banco ***/
+		$cadastro_aprovado = $_POST['cadastro_aprovado'];
+		$cpf = $_POST['cpf'];
+		$sql = mysql_query("UPDATE tecnicos
+			SET `cadastro_aprovado`='$cadastro_aprovado'
+			WHERE cpf LIKE '%$cpf%'");
+		echo "<center><h1>Cadastro editado com sucesso!</h1></center>"; // Vc coloca se vc quiser   // pode colocar um link para voltar se vc quiser
 	?>
 </body>
 
