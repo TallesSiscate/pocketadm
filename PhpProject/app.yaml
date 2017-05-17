@@ -1,0 +1,24 @@
+application: phppocket
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /busca.php
+  script: busca.php
+- url: /results.php
+  script: tecnicos.php
+- url: /tecnico.php
+  script: tecnico.php
+- url: /alterando.php
+  script: alterando.php
+- url: /connection.php
+  script: connection.php
+- url: /cadastro.php
+  script: cadastro.php
+- url: /cadastrando.php
+  script: cadastrando.php
+- url: /results_usuario.php
+  script: results_usuario.php
+- url: /.*
+  script: index.php
